@@ -2,6 +2,7 @@ package com.tobProfitTracker;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
+import tobProfitTracker.TobProfitTrackerPlugin;
 
 public class TobProfitTrackerTest
 {
