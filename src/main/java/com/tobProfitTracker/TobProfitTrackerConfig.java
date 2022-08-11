@@ -1,11 +1,14 @@
-package com.example;
+package com.tobProfitTracker;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.ConfigSection;
+
+import java.awt.*;
 
 @ConfigGroup("example")
-public interface ExampleConfig extends Config
+public interface TobProfitTrackerConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
