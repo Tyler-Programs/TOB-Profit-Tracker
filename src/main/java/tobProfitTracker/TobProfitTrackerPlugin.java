@@ -35,7 +35,7 @@ public class TobProfitTrackerPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		TobProfitTrackerPanel panel = new TobProfitTrackerPanel();
+		TobProfitTrackerPanel panel = new TobProfitTrackerPanel(this, config);
 		NavigationButton navButton = NavigationButton.builder()
 				.tooltip("TOB Profits")
 		.icon(ICON)
