@@ -13,8 +13,7 @@ public class TobProfitTrackerPanel extends PluginPanel {
     private final List<TobProfitTrackerBox> boxes = new ArrayList<>();
     private final JPanel totalProfitPanel = buildTotalProfitPanel();
 
-    TobProfitTrackerPanel(final TobProfitTrackerPlugin plugin, final TobProfitTrackerConfig config)
-    {
+    TobProfitTrackerPanel(final TobProfitTrackerPlugin plugin, final TobProfitTrackerConfig config) {
         setBorder(new EmptyBorder(6, 6, 6, 6));
         setBackground(ColorScheme.DARK_GRAY_COLOR);
         setLayout(new BorderLayout());
@@ -26,8 +25,7 @@ public class TobProfitTrackerPanel extends PluginPanel {
         add(layoutPanel, BorderLayout.NORTH);
     }
 
-    private JPanel buildTotalProfitPanel()
-    {
+    private JPanel buildTotalProfitPanel() {
         final JPanel totalProfitContainer = new JPanel();
         totalProfitContainer.setLayout(new BorderLayout());
         totalProfitContainer.setBackground(ColorScheme.DARKER_GRAY_COLOR);
